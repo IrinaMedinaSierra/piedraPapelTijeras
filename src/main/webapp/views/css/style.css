@@ -2,18 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: azure;
     padding: 50px;
     height: 400px;
     flex-direction: column;
+    z-index: 0;
 }
 .contenedor1{
     display: flex;
     align-items: center;
     justify-content:center;
-    background-color: azure;
     padding: 50px;
     height: 400px;
+    position: relative;
 }
 .contenedor2{
     display: flex;
@@ -28,7 +28,7 @@
 body{
     background-color:  #260071;
     font-family: Verdana;
-    height: 100vh;
+    height: 100vh!important;
 }
 .boton{
         padding: 10px 20px;
@@ -98,7 +98,15 @@ input[type="radio"] {
     display: block;
     border-left: 5px solid  rgba(120, 93, 160, 0.65);;
 }
-.marquesina{
+.marquesina {
     display: none;
+    position:absolute;
+    left: 40%;
+    z-index: 1000;
+    top:0
+
+}
+.marquesina{
+    z-index: 1;
 }
 
