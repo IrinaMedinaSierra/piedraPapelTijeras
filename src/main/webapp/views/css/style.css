@@ -103,10 +103,7 @@ input[type="radio"] {
     position:absolute;
     left: 40%;
     z-index: 1000;
-    top:0
-
-}
-.marquesina{
-    z-index: 1;
+    top:0;
+    bottom:0;
 }
 

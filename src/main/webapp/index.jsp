@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<div class="contenedor1   col-12">
+<div class="contenedor1 col-12">
     <div class="col-6 centrado">
         <label for="piedra">
             <input type="radio" value="1" name="opcion" id="piedra">
@@ -43,7 +43,7 @@
 </div>
   <div class="marquesina col-12">
     <marquee direction="up"   width="100%"
-             height="500">
+             height=1000">
         <img src="views/img/carita-triste.png" alt="Carita triste"></marquee>
   </div>
 </body>
